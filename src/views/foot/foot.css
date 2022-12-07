@@ -1,0 +1,33 @@
+.foot {
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+}
+
+.footLists {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footList {
+    list-style: none;
+    padding: 0;
+}
+
+.footListItem {
+    margin-bottom: 10px;
+    color: rgb(98, 144, 37);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.copyright {
+    font-style: italic;
+    color: rgb(98, 144, 37);
+    font-weight: 500;
+    float: left;
+    margin-left: -20px;
+    padding: 20px;
+}

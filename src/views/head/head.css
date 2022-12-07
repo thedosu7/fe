@@ -1,0 +1,117 @@
+.head{
+    background-color: rgb(106, 170, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headContains{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.headContains.recordMode{
+    margin: 20px 0px 0px 0px;
+}
+.headList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.headItems{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid wheat;
+    padding: 10px;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+.description{
+    margin: 25px 5px;
+}
+.headBtn{
+    background-color: rgb(255, 255, 255);
+    color:rgb(106, 170, 42);
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.headSearch{
+    height: 30px;
+    background-color: white;
+    border: 2px solid seagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.icon{
+    color:  gray;
+}
+.searchItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inputText{
+    border: none;
+    outline: none;
+
+}
+.searchText{
+    color: gray;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.peopleOption{
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    z-index: 2;
+    box-shadow: 5px 5px 10px -5px black;
+}
+.peopleOptionItems{
+    width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    color: black;
+}
+.countBtn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(106, 170, 42) ;
+    cursor: pointer;
+    background-color: white;
+}
+.countBtn:disabled{
+    cursor:not-allowed;
+}
+.searchBtn{
+    background-color: rgb(106, 170, 42);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

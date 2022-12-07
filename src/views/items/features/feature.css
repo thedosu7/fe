@@ -1,0 +1,25 @@
+.feature{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featureImg{
+    width: 100%;
+    object-fit: cover;
+}
+.featureItems{
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.tilte{
+    position: absolute;
+    bottom: 20px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    left: 20px;
+}

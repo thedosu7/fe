@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.htWrap {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.book {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border: none;
+  padding: 10px 20px;
+  background-color: #008009;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.htTitle {
+  font-size: 24px;
+}
+
+.htAddress {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.htDist {
+  color: #008009;
+  font-weight: 500;
+}
+
+.htPrice {
+  color: #008009;
+  font-weight: 500;
+}
+
+.htImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.htImgWrap {
+  width: 33%;
+}
+
+.htImg {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.htDetails {
+  flex: 3;
+}
+
+.htDesc {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.htPriceDetails {
+  flex: 1;
+  background-color: #aceca1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.htPriceDetails>h1 {
+  font-size: 18px;
+  color: #555;
+}
+
+.htPriceDetails>span {
+  font-size: 14px;
+}
+
+.htPriceDetails>h2 {
+  font-weight: 300;
+}
+
+.htPriceDetails>button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #008009;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slide {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+.slwrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImg {
+  width: 80%;
+  height: 80vh;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #008009;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  margin: 20px;
+  font-size: 50px;
+  color: #008009;
+  cursor: pointer;
+}

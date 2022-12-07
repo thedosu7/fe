@@ -1,0 +1,26 @@
+.nb{
+    height: 50px;
+    background-color:rgb(106, 170, 42);
+    display: flex;
+    justify-content: center;
+}
+.navContain{
+    width: 100%;
+    max-width:1024px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.lg{
+    font-weight: 500;
+}
+.navBtn{
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: rgb(106, 170, 42);
+    border-radius: 5px;
+    font-weight: 700;
+}

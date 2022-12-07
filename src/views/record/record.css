@@ -1,0 +1,74 @@
+.recordContain{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.recordWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.search{
+    flex:1;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    position: sticky;
+    top: 5px;
+    height: max-content;
+}
+.result{
+    flex:3
+}
+.searchTilte{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.recordItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.recordItem>label{
+    font-size: 12px;
+}
+.recordItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.recordItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.prOptions{
+    padding: 10px;
+  }
+.prOtion{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.prOptionInput{
+    width: 50px;
+}
+.search>button{
+    padding: 10px;
+    background-color:rgb(106, 170, 42);
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
